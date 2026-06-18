@@ -1,0 +1,35 @@
+{
+  "name": "registration_system",
+  "version": "1.0.0",
+  "description": "A back-end Registration System designed to manage user registration, authentication, and profile management efficiently. The system provides a secure and user-friendly platform for users to create accounts, log in, update their information, and manage their profiles.",
+  "homepage": "https://github.com/RoQaa/Registration-System#readme",
+  "start": "node server.js",
+  "dev": "nodemon server.js",
+  "bugs": {
+    "url": "https://github.com/RoQaa/Registration-System/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoQaa/Registration-System.git"
+  },
+  "license": "ISC",
+  "author": "Farooq",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.2.0",
+    "mongoose": "^9.7.1",
+    "morgan": "^1.11.0",
+    "morgan-body": "^2.6.9",
+    "nodemon": "^3.1.14",
+    "xss-clean": "^0.1.4"
+  }
+}
